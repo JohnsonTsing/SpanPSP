@@ -1,2 +1,2 @@
 # SpanPSP
-The code and pretrained models will be released soon.
+The pretrained models will be released soon.
