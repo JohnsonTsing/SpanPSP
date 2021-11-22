@@ -8,6 +8,7 @@ The pretrained models will be released soon.
 * pytokenizations 0.7.2 or compatible.
 
 ## Repository structure
+![image](https://user-images.githubusercontent.com/70370966/142816162-726ac560-cc82-4d04-820c-270c59e53e1d.png)
 
 
 ## Training and test with your dataset (soon)
