@@ -56,7 +56,8 @@ First prepare your own dataset into the following format, and divide it into tra
 Put them in the right place as shown in the above repository structure.
 > 猴子#2用#1尾巴#2荡秋千#3。
 
-Then use the following command to convert the dataset from sequence format to tree format:
+Then use the following command to convert the data of the three above files from sequence format to tree format by changing the file path in the code respectively.
+After that, you can get the __*tree_train.txt*__, __*tree_validate.txt*__ and __*tree_test.txt*__. 
 ```
 $ python src/train_seq2tree.py
 ```
