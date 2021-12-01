@@ -52,7 +52,7 @@ SpanPSP
 
 ## Training and test with your dataset
 ### Data preprocessing
-First prepare your own dataset into the following format, and divide it into training, validation and test named *raw_train.txt*, *raw_validate.txt* and *raw_test.txt* respectively.
+First prepare your own dataset into the following format, and divide it into training, validation and test named __*raw_train.txt*__, __*raw_validate.txt*__ and __*raw_test.txt*__ respectively.
 Put them in the right place as shown in the above repository structure.
 > 猴子#2用#1尾巴#2荡秋千#3。
 
