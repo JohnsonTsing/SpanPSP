@@ -52,7 +52,8 @@ SpanPSP
 
 ## Training and test with your dataset
 ### Data preprocessing
-First prepare your own dataset into the following format, and put it in the right place as shown in the repository structure.
+First prepare your own dataset into the following format, and divide it into training, validation and test named *raw_train.txt*, *raw_validate.txt* and *raw_test.txt* respectively.
+Put them in the right place as shown in the above repository structure.
 > 猴子#2用#1尾巴#2荡秋千#3。
 
 Then use the following command to convert the dataset from sequence format to tree format:
