@@ -13,7 +13,10 @@ The pretrained models will be released soon.
 
 ## Training and test with your dataset (soon)
 ### Data preprocessing
-
+First prepare your own dataset into the following format, and put it in the right place as shown in the repository structure.
+'''
+$ python src/train_seq2tree.py
+'''
 ### Training
 
 ### Test
