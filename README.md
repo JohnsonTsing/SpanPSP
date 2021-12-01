@@ -31,5 +31,11 @@ $ python src/main.py  test  --model-path [your_trained_model_path]  --test-path 
 ## Using the pre-trained model to automatically label the prosody structure of text data (soon)
 ### Data preprocessing
 First prepare your own dataset into the following format, and put it in the right place as shown in the repository structure.
-
+> 猴子用尾巴荡秋千。
+```
+$ python src/inference_seq2tree.py
+```
 ### Automatic labeling
+```
+$ python src/main.py  auto_labels  --model-path [your_pretrained_model_path]  --test-path [your_test_data_path]  --output-path [your_output_data_path]
+```
