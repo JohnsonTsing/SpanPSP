@@ -18,12 +18,15 @@ First prepare your own dataset into the following format, and put it in the righ
 $ python src/train_seq2tree.py
 ```
 ### Training
-Training your model using:
+Train your model using:
 ```
 $ python src/main.py  train  --train-path [your_training_data_path]  --dev-path [your_dev_data_path]  --model-path-base [your_saving_model_path] 
 ```
 ### Test
-
+Test your model using:
+```
+$ python src/main.py  test  --model-path [your_trained_model_path]  --test-path [your_test_data_path]
+```
 ## Using the pre-trained model to automatically label the prosody structure of text data (soon)
 ### Data preprocessing
 
