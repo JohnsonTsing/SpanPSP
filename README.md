@@ -1,5 +1,5 @@
 # SpanPSP
-This repository contains code accompanying the paper "A CHARACTER-LEVEL SPAN-BASED MODEL FOR MANDARIN PROSODIC STRUCTURE PREDICTION" which is submitted to ICASSP 2022.
+This repository contains code accompanying the paper **"A CHARACTER-LEVEL SPAN-BASED MODEL FOR MANDARIN PROSODIC STRUCTURE PREDICTION"** which is submitted to ICASSP 2022.
 
 ## Environment
 * Python 3.7 or higher.
