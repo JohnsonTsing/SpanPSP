@@ -54,6 +54,7 @@ SpanPSP
 ### Data preprocessing
 First prepare your own dataset into the following format, and put it in the right place as shown in the repository structure.
 > 猴子#2用#1尾巴#2荡秋千#3。
+Then use the following command to convert the dataset from sequence format to tree format:
 ```
 $ python src/train_seq2tree.py
 ```
@@ -71,6 +72,7 @@ $ python src/main.py  test  --model-path [your_trained_model_path]  --test-path 
 ### Data preprocessing
 First prepare your own dataset into the following format, and put it in the right place as shown in the repository structure.
 > 猴子用尾巴荡秋千。
+Then use the following command to convert the dataset from sequence format to tree format:
 ```
 $ python src/inference_seq2tree.py
 ```
