@@ -10,8 +10,8 @@ The accuracy of prosodic structure prediction is crucial to the naturalness of s
 
 |         |    Method     | Chinese text | Audio |
 |:--|:---------|:---------------------------------------|:------|
-| 1 | Baseline | 中国是禁止涉外婚介的，不信你可以上网查查。<br>0 1 2 0 1 0 1 0 0 3  0 0 2 0 1 0 1 0 3|<audio controls><source src="./wavs/Baseline/b01.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-|   | Proposed | 中国是禁止涉外婚介的，不信你可以上网查查。 |<audio controls><source src="./wavs/Proposed/p01.wav" type="audio/wav">Your browser does not support the audio element.</audio>   |
+| 1 | Baseline | 中国是禁止涉外婚介的，不信你可以上网查查。<br> 0 1 2 0 1 0 1 0 0 3  0 0 2 0 1 0 1 0 3 |<audio controls><source src="./wavs/Baseline/b01.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+|   | Proposed | 中国是禁止涉外婚介的，不信你可以上网查查。<br> 0  1   1   0 1   0 1    0  0 3 0     0 3    0 0 1    0 1   0 3 0 |<audio controls><source src="./wavs/Proposed/p01.wav" type="audio/wav">Your browser does not support the audio element.</audio>   |
 |   |    |   |
 | 2 | Baseline | 其次，玉米食用油尤其是玉米胚芽油正越来越多的推向市场。|<audio controls><source src="./wavs/Baseline/b02.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 |   | Proposed | 其次，玉米食用油尤其是玉米胚芽油正越来越多的推向市场。 |<audio controls><source src="./wavs/Proposed/p02.wav" type="audio/wav">Your browser does not support the audio element.</audio>   |
@@ -69,49 +69,5 @@ The accuracy of prosodic structure prediction is crucial to the naturalness of s
 |   |    |   |
 | 20 | Baseline | 莫欺少年穷，要有信心哦！|<audio controls><source src="./wavs/Baseline/b20.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 |    | Proposed | 莫欺少年穷，要有信心哦！ |<audio controls><source src="./wavs/Proposed/p20.wav" type="audio/wav">Your browser does not support the audio element.</audio>   |
-|   |    |   |
 
 
-中国是禁止涉外婚介的，不信你可以上网查查。
-
-
-
-
-
-
-
-
-
-
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thuhcsi/SpanPSP/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
