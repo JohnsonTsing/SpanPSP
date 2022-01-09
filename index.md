@@ -1,9 +1,20 @@
-## Abstract
+---
+layout: default
+---
+
+# Abstract
 
 The accuracy of prosodic structure prediction is crucial to the naturalness of synthesized speech in Mandarin text-to-speech system, but now is limited by widely-used sequence-to-sequence framework and error accumulation from previous word segmentation results. In this paper, we propose a span-based Mandarin prosodic structure prediction model to obtain an optimal prosodic structure tree, which can be converted to corresponding prosodic label sequence. Instead of the prerequisite for word segmentation, rich linguistic features are provided by Chinese character-level BERT and sent to encoder with self-attention architecture. On top of this, span representation and label scoring are used to describe all possible prosodic structure trees, of which each tree has its corresponding score. To find the optimal tree with the highest score for a given sentence, a bottom-up CKYstyle algorithm is further used. The proposed method can predict prosodic labels of different levels at the same time and accomplish the process directly from Chinese characters in an end-to-end manner. Experiment results on two real-world datasets demonstrate the excellent performance of our span-based method over all sequenceto-sequence baseline approaches.
-You can use the [editor on GitHub](https://github.com/thuhcsi/SpanPSP/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Subjective Evaluation
+
+|         | Method          | Chinese text | Audio |
+|:--|:---------|:---------------------------------------|:------|
+| 1 | Baseline | 中国是禁止涉外婚介的，不信你可以上网查查。 |<audio controls><source src="./wavs/Baseline/b01.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+|   | Proposed | 中国是禁止涉外婚介的，不信你可以上网查查。 |<audio controls><source src="./wavs/Proposed/p01.wav" type="audio/wav">Your browser does not support the audio element.</audio>   |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
 
 ### Markdown
 
