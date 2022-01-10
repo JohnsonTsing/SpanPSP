@@ -10,7 +10,7 @@ The accuracy of prosodic structure prediction is crucial to the naturalness of s
 
 |         |    Method     | Chinese text | Audio |
 |:--|:---------|:---------------------------------------|:------|
-| 1 | Baseline | 中国是禁止涉外婚介的，不信你可以上网查查。<br> 0 1 2 0 1 0 1 0 0 3  0 0 2 0 1 0 1 0 3 |<audio controls><source src="./wavs/Baseline/b01.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| 1 | Baseline | 中国是禁止涉外婚介的，不信你可以上网查查。<br> _0_1_2_0_1_0_1_0_0_3__0 0 2 0 1 0 1 0 3 |<audio controls><source src="./wavs/Baseline/b01.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 |   | Proposed | 中国是禁止涉外婚介的，不信你可以上网查查。<br> 0  1   1   0 1   0 1    0  0 3 0     0 3    0 0 1    0 1   0 3 0 |<audio controls><source src="./wavs/Proposed/p01.wav" type="audio/wav">Your browser does not support the audio element.</audio>   |
 |   |    |   |
 | 2 | Baseline | 其次，玉米食用油尤其是玉米胚芽油正越来越多的推向市场。|<audio controls><source src="./wavs/Baseline/b02.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
