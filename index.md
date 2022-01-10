@@ -8,7 +8,7 @@ The accuracy of prosodic structure prediction is crucial to the naturalness of s
 
 # Subjective Evaluation
 
-|         |    Method     | Chinese text | Audio |
+|         |    Method     | Chinese text / Prosodic structure label | Audio |
 |:--|:---------|:---------------------------------------|:------|
 | 1 | Baseline | 中国是禁止涉外婚介的，不信你可以上网查查。<br> _0_1_2_0_1_0_1_0_0_3，_0_0_2_0_1_0_1_0_3 <br> zhong1 - guo2 ` shi4 / jin4 - zhi3 ` she4 - wai4 ` hun1 - jie4 - de5 , bu2 - xin4 - ni3 / ke6 - yi3 ` shang4 - wang3 ` cha2 - cha5 . |<audio controls><source src="./wavs/Baseline/b01.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 |   | Proposed | 中国是禁止涉外婚介的，不信你可以上网查查。<br> _0_1_1_0_1_0_1_0_0_3，_0_3_0_0_1_0_1_0_3 <br> zhong1 - guo2 ` shi4 ` jin4 - zhi3 ` she4 - wai4 ` hun1 - jie4 - de5 , bu2 - xin4 , ni3 - ke6 - yi3 ` shang4 - wang3 ` cha2 - cha5 . |<audio controls><source src="./wavs/Proposed/p01.wav" type="audio/wav">Your browser does not support the audio element.</audio>   |
