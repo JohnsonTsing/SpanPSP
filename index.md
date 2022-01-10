@@ -8,7 +8,7 @@ The accuracy of prosodic structure prediction is crucial to the naturalness of s
 
 # Subjective Evaluation
 
-We further conduct an AB preference test on the naturalness of the synthesized speech. We compare our proposed model Transformer-Tree with the baseline Transformer-CRF (the previous state-of-the-art model). A set of 20 sentences are randomly selected from the test set with different prosodic structure prediction results and corresponding speeches are generated through a Tacotron 2 TTS model. A group of 20 subjects are asked to give their preference in terms of the naturalness for each speech. The percentage preference is shown in shown in the following figure. We can clearly see that the proposed model Transformer-Tree is significantly better than the baseline model Transformer-CRF in terms of the naturalness of synthesized speech.
+We further conduct an AB preference test on the naturalness of the synthesized speech. We compare our proposed model Transformer-Tree with the baseline Transformer-CRF (the previous state-of-the-art model). A set of 20 sentences are randomly selected from the test set with different prosodic structure prediction results and corresponding speeches are generated through a Tacotron 2 TTS model. A group of 20 subjects are asked to give their preference in terms of the naturalness for each speech. The percentage preference is shown in the following figure. We can clearly see that the proposed model Transformer-Tree is significantly better than the baseline model Transformer-CRF in terms of the naturalness of synthesized speech.
 
 <img src="./wavs/ABX.png" width="60%">
 
